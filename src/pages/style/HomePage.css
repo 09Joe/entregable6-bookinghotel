@@ -1,0 +1,20 @@
+
+.homepage__text{
+    margin-top: 1em;
+}
+
+.homepage__filter__city {
+    display: block;
+    height: .9em;
+    padding: .4em 1em;
+    border-radius: 0.9em;
+    font-size: inherit;
+    border: solid;
+    border-color: black;
+    margin-top: .7em;
+}
+
+/*
+.filter_fields_aside {
+}
+*/

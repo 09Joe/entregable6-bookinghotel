@@ -1,0 +1,6 @@
+label {
+    display: block;
+  }
+  label, input, button, select {
+    font-size: 1.4rem;
+  }

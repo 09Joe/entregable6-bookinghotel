@@ -1,0 +1,58 @@
+.form_reserve {
+    max-width: 280px;
+    display: grid;
+    gap: 0.2em;
+    border: 1px solid #111;
+    margin-top: 1.5rem;
+    overflow: hidden;
+    background-color: rgba(229, 227, 227, 0.667);
+    padding: 2em 1.5em 2.5em;
+    border-radius: .9em;
+    box-shadow: 0.3em 0.3em #eeea;
+}
+
+.reserve_title{
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.reserve_card_info {
+    padding: .4em 1em;
+}
+
+.reserve_img {
+    width: 250px;
+    border-radius: .8em;
+}
+
+.form_review {
+    display: block;
+    padding: .4em 1em;
+    border-radius: .9em;
+    border: none;
+}
+.review_coments {
+    border-radius: 1em;
+}
+
+
+.review_btn{
+    font-size: inherit;
+    display: block;
+    height: 110%;
+    padding: .4em 1em;
+    border: none;
+    margin-top: .7em;
+    width: 8em;
+    height: 2em;
+    border-radius: .9em;
+    background-color: rgb(169, 18, 18);
+    color: #fff;
+    font-weight: 700;
+    &:hover {
+        background-color: #007bff;
+        color: white;
+      }
+}

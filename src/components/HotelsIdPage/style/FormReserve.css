@@ -1,0 +1,36 @@
+.form__reserve {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 4px;
+  border: none;
+  border-radius: 3em;
+  box-sizing: border-box;
+}
+
+.reserve_check {
+    height: .9em;
+    padding: .4em 1em;
+    border-radius: 0.9em;
+    font-size: inherit;
+    border: solid;
+    border-color: black;
+}
+
+.submit_reserve_btn {
+    font-size: inherit;
+    display: block;
+    height: 110%;
+    padding: .4em 1em;
+    border: none;
+    margin-top: .7em;
+    width: 8em;
+    height: 2em;
+    border-radius: .9em;
+    background-color: rgb(169, 18, 18);
+    color: #fff;
+    font-weight: 700;
+    &:hover {
+        background-color: #007bff;
+        color: white;
+      }
+}

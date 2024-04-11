@@ -1,0 +1,33 @@
+.card_logged_user{
+    margin-top: 4em;
+    text-align: center;
+}
+
+.logged_image{
+    max-width: 450px;
+}
+
+.logged_user {
+   font-size: 3em;
+}
+
+.logout_btn {
+    font-size: inherit;
+    height: 110%;
+    padding: .4em 1em;
+    margin-top: .7em;
+    width: 8em;
+    height: 2em;
+    border-radius: .9em;
+    background-color: rgb(169, 18, 18);
+    color: #fff;
+    font-weight: 700;
+    &:hover {
+        background-color: #007bff;
+        color: white;
+      }
+}
+
+button {
+    cursor: pointer;
+}

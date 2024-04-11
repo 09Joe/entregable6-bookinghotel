@@ -1,0 +1,33 @@
+.form__register {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 25px;
+  
+}
+
+.form__register__label{
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 4px;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+}
+
+.form__info {
+    font-size: 35px;
+}
+
+.register__button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.register__button:hover {
+    background-color: rgb(175, 75, 75);
+  }
